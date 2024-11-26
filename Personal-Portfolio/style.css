@@ -1,0 +1,33 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins", Arial, Helvetica, sans-serif;
+}
+
+/* navbar */
+header {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.navbar ul {
+    margin-right: 100px;
+    gap: 30px;
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: bisque;
+    text-decoration: none;
+}
